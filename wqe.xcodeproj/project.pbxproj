@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5B307B3316AC980D007E578A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B307B3216AC980D007E578A /* UIKit.framework */; };
+		5B307B3516AC980D007E578A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B307B3416AC980D007E578A /* Foundation.framework */; };
+		5B307B3716AC980D007E578A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B307B3616AC980D007E578A /* CoreGraphics.framework */; };
+		5B307B3916AC980D007E578A /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B307B3816AC980D007E578A /* CoreData.framework */; };
+		5B307B3F16AC980D007E578A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5B307B3D16AC980D007E578A /* InfoPlist.strings */; };
+		5B307B4116AC980D007E578A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B307B4016AC980D007E578A /* main.m */; };
+		5B307B4516AC980D007E578A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B307B4416AC980D007E578A /* AppDelegate.m */; };
+		5B307B4716AC980D007E578A /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B307B4616AC980D007E578A /* Default.png */; };
+		5B307B4916AC980E007E578A /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B307B4816AC980E007E578A /* Default@2x.png */; };
+		5B307B4B16AC980E007E578A /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B307B4A16AC980E007E578A /* Default-568h@2x.png */; };
+		5B307B4E16AC980E007E578A /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B307B4C16AC980E007E578A /* MainStoryboard_iPhone.storyboard */; };
+		5B307B5116AC980E007E578A /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B307B4F16AC980E007E578A /* MainStoryboard_iPad.storyboard */; };
+		5B307B5416AC980E007E578A /* wqe.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5B307B5216AC980E007E578A /* wqe.xcdatamodeld */; };
+		5B307B5716AC980E007E578A /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B307B5616AC980E007E578A /* MasterViewController.m */; };
+		5B307B5A16AC980E007E578A /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B307B5916AC980E007E578A /* DetailViewController.m */; };
+		5B307B6216AC980E007E578A /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B307B6116AC980E007E578A /* SenTestingKit.framework */; };
+		5B307B6316AC980E007E578A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B307B3216AC980D007E578A /* UIKit.framework */; };
+		5B307B6416AC980E007E578A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B307B3416AC980D007E578A /* Foundation.framework */; };
+		5B307B6516AC980E007E578A /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B307B3816AC980D007E578A /* CoreData.framework */; };
+		5B307B6D16AC980E007E578A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5B307B6B16AC980E007E578A /* InfoPlist.strings */; };
+		5B307B7016AC980E007E578A /* wqeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B307B6F16AC980E007E578A /* wqeTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5B307B6616AC980E007E578A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5B307B2516AC980D007E578A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5B307B2D16AC980D007E578A;
+			remoteInfo = wqe;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5B307B2E16AC980D007E578A /* wqe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = wqe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B307B3216AC980D007E578A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5B307B3416AC980D007E578A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5B307B3616AC980D007E578A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5B307B3816AC980D007E578A /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		5B307B3C16AC980D007E578A /* wqe-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "wqe-Info.plist"; sourceTree = "<group>"; };
+		5B307B3E16AC980D007E578A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5B307B4016AC980D007E578A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5B307B4216AC980D007E578A /* wqe-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "wqe-Prefix.pch"; sourceTree = "<group>"; };
+		5B307B4316AC980D007E578A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5B307B4416AC980D007E578A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5B307B4616AC980D007E578A /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		5B307B4816AC980E007E578A /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		5B307B4A16AC980E007E578A /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		5B307B4D16AC980E007E578A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		5B307B5016AC980E007E578A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		5B307B5316AC980E007E578A /* wqe.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = wqe.xcdatamodel; sourceTree = "<group>"; };
+		5B307B5516AC980E007E578A /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		5B307B5616AC980E007E578A /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		5B307B5816AC980E007E578A /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		5B307B5916AC980E007E578A /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		5B307B6016AC980E007E578A /* wqeTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = wqeTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B307B6116AC980E007E578A /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		5B307B6A16AC980E007E578A /* wqeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "wqeTests-Info.plist"; sourceTree = "<group>"; };
+		5B307B6C16AC980E007E578A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5B307B6E16AC980E007E578A /* wqeTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = wqeTests.h; sourceTree = "<group>"; };
+		5B307B6F16AC980E007E578A /* wqeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = wqeTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5B307B2B16AC980D007E578A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B307B3316AC980D007E578A /* UIKit.framework in Frameworks */,
+				5B307B3516AC980D007E578A /* Foundation.framework in Frameworks */,
+				5B307B3716AC980D007E578A /* CoreGraphics.framework in Frameworks */,
+				5B307B3916AC980D007E578A /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B307B5C16AC980E007E578A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B307B6216AC980E007E578A /* SenTestingKit.framework in Frameworks */,
+				5B307B6316AC980E007E578A /* UIKit.framework in Frameworks */,
+				5B307B6416AC980E007E578A /* Foundation.framework in Frameworks */,
+				5B307B6516AC980E007E578A /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5B307B2316AC980D007E578A = {
+			isa = PBXGroup;
+			children = (
+				5B307B3A16AC980D007E578A /* wqe */,
+				5B307B6816AC980E007E578A /* wqeTests */,
+				5B307B3116AC980D007E578A /* Frameworks */,
+				5B307B2F16AC980D007E578A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5B307B2F16AC980D007E578A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5B307B2E16AC980D007E578A /* wqe.app */,
+				5B307B6016AC980E007E578A /* wqeTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5B307B3116AC980D007E578A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5B307B3216AC980D007E578A /* UIKit.framework */,
+				5B307B3416AC980D007E578A /* Foundation.framework */,
+				5B307B3616AC980D007E578A /* CoreGraphics.framework */,
+				5B307B3816AC980D007E578A /* CoreData.framework */,
+				5B307B6116AC980E007E578A /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5B307B3A16AC980D007E578A /* wqe */ = {
+			isa = PBXGroup;
+			children = (
+				5B307B4316AC980D007E578A /* AppDelegate.h */,
+				5B307B4416AC980D007E578A /* AppDelegate.m */,
+				5B307B4C16AC980E007E578A /* MainStoryboard_iPhone.storyboard */,
+				5B307B4F16AC980E007E578A /* MainStoryboard_iPad.storyboard */,
+				5B307B5516AC980E007E578A /* MasterViewController.h */,
+				5B307B5616AC980E007E578A /* MasterViewController.m */,
+				5B307B5816AC980E007E578A /* DetailViewController.h */,
+				5B307B5916AC980E007E578A /* DetailViewController.m */,
+				5B307B5216AC980E007E578A /* wqe.xcdatamodeld */,
+				5B307B3B16AC980D007E578A /* Supporting Files */,
+			);
+			path = wqe;
+			sourceTree = "<group>";
+		};
+		5B307B3B16AC980D007E578A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5B307B3C16AC980D007E578A /* wqe-Info.plist */,
+				5B307B3D16AC980D007E578A /* InfoPlist.strings */,
+				5B307B4016AC980D007E578A /* main.m */,
+				5B307B4216AC980D007E578A /* wqe-Prefix.pch */,
+				5B307B4616AC980D007E578A /* Default.png */,
+				5B307B4816AC980E007E578A /* Default@2x.png */,
+				5B307B4A16AC980E007E578A /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5B307B6816AC980E007E578A /* wqeTests */ = {
+			isa = PBXGroup;
+			children = (
+				5B307B6E16AC980E007E578A /* wqeTests.h */,
+				5B307B6F16AC980E007E578A /* wqeTests.m */,
+				5B307B6916AC980E007E578A /* Supporting Files */,
+			);
+			path = wqeTests;
+			sourceTree = "<group>";
+		};
+		5B307B6916AC980E007E578A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5B307B6A16AC980E007E578A /* wqeTests-Info.plist */,
+				5B307B6B16AC980E007E578A /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5B307B2D16AC980D007E578A /* wqe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B307B7316AC980E007E578A /* Build configuration list for PBXNativeTarget "wqe" */;
+			buildPhases = (
+				5B307B2A16AC980D007E578A /* Sources */,
+				5B307B2B16AC980D007E578A /* Frameworks */,
+				5B307B2C16AC980D007E578A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = wqe;
+			productName = wqe;
+			productReference = 5B307B2E16AC980D007E578A /* wqe.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5B307B5F16AC980E007E578A /* wqeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B307B7616AC980E007E578A /* Build configuration list for PBXNativeTarget "wqeTests" */;
+			buildPhases = (
+				5B307B5B16AC980E007E578A /* Sources */,
+				5B307B5C16AC980E007E578A /* Frameworks */,
+				5B307B5D16AC980E007E578A /* Resources */,
+				5B307B5E16AC980E007E578A /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5B307B6716AC980E007E578A /* PBXTargetDependency */,
+			);
+			name = wqeTests;
+			productName = wqeTests;
+			productReference = 5B307B6016AC980E007E578A /* wqeTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5B307B2516AC980D007E578A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = MK;
+			};
+			buildConfigurationList = 5B307B2816AC980D007E578A /* Build configuration list for PBXProject "wqe" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5B307B2316AC980D007E578A;
+			productRefGroup = 5B307B2F16AC980D007E578A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5B307B2D16AC980D007E578A /* wqe */,
+				5B307B5F16AC980E007E578A /* wqeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5B307B2C16AC980D007E578A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B307B3F16AC980D007E578A /* InfoPlist.strings in Resources */,
+				5B307B4716AC980D007E578A /* Default.png in Resources */,
+				5B307B4916AC980E007E578A /* Default@2x.png in Resources */,
+				5B307B4B16AC980E007E578A /* Default-568h@2x.png in Resources */,
+				5B307B4E16AC980E007E578A /* MainStoryboard_iPhone.storyboard in Resources */,
+				5B307B5116AC980E007E578A /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B307B5D16AC980E007E578A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B307B6D16AC980E007E578A /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5B307B5E16AC980E007E578A /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5B307B2A16AC980D007E578A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B307B4116AC980D007E578A /* main.m in Sources */,
+				5B307B4516AC980D007E578A /* AppDelegate.m in Sources */,
+				5B307B5416AC980E007E578A /* wqe.xcdatamodeld in Sources */,
+				5B307B5716AC980E007E578A /* MasterViewController.m in Sources */,
+				5B307B5A16AC980E007E578A /* DetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B307B5B16AC980E007E578A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B307B7016AC980E007E578A /* wqeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5B307B6716AC980E007E578A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5B307B2D16AC980D007E578A /* wqe */;
+			targetProxy = 5B307B6616AC980E007E578A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5B307B3D16AC980D007E578A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5B307B3E16AC980D007E578A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		5B307B4C16AC980E007E578A /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5B307B4D16AC980E007E578A /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		5B307B4F16AC980E007E578A /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5B307B5016AC980E007E578A /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		5B307B6B16AC980E007E578A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5B307B6C16AC980E007E578A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5B307B7116AC980E007E578A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5B307B7216AC980E007E578A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5B307B7416AC980E007E578A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "wqe/wqe-Prefix.pch";
+				INFOPLIST_FILE = "wqe/wqe-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5B307B7516AC980E007E578A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "wqe/wqe-Prefix.pch";
+				INFOPLIST_FILE = "wqe/wqe-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		5B307B7716AC980E007E578A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/wqe.app/wqe";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "wqe/wqe-Prefix.pch";
+				INFOPLIST_FILE = "wqeTests/wqeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		5B307B7816AC980E007E578A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/wqe.app/wqe";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "wqe/wqe-Prefix.pch";
+				INFOPLIST_FILE = "wqeTests/wqeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5B307B2816AC980D007E578A /* Build configuration list for PBXProject "wqe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B307B7116AC980E007E578A /* Debug */,
+				5B307B7216AC980E007E578A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B307B7316AC980E007E578A /* Build configuration list for PBXNativeTarget "wqe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B307B7416AC980E007E578A /* Debug */,
+				5B307B7516AC980E007E578A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5B307B7616AC980E007E578A /* Build configuration list for PBXNativeTarget "wqeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B307B7716AC980E007E578A /* Debug */,
+				5B307B7816AC980E007E578A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		5B307B5216AC980E007E578A /* wqe.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				5B307B5316AC980E007E578A /* wqe.xcdatamodel */,
+			);
+			currentVersion = 5B307B5316AC980E007E578A /* wqe.xcdatamodel */;
+			path = wqe.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 5B307B2516AC980D007E578A /* Project object */;
+}
